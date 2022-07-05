@@ -45,7 +45,6 @@ library(lubridate)
 * [&#x1F4C6; Week 2](./Week 2)
 * [&#x1F4C6; Week 3](./Week 3)
 * [&#x1F4C6; Week 4](./Week 4)
-* [&#x1F4D1; Course Textbook Notes](./book)
 
 #### Course Description
 

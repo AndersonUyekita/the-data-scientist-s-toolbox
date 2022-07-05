@@ -32,7 +32,6 @@ The Data Scientist’s Toolbox
 -   [📆 Week 2](./Week%202)
 -   [📆 Week 3](./Week%203)
 -   [📆 Week 4](./Week%204)
--   [📑 Course Textbook Notes](./book)
 
 #### Course Description
 
