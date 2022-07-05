@@ -11,7 +11,7 @@ params:
   specialization_url: 'https://www.coursera.org/specializations/data-science-foundations-r'
   instructor: 'Jeffrey Leek'
   course_start: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
-  course_finish: !r lubridate::today(tzone = "America/Sao_Paulo")
+  course_finish: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
   week: ' Week 4'
 ---
 
@@ -33,8 +33,7 @@ library(lubridate)
 
 #### Assignments & Deliverables
 
-* [&#x1F680; Course Project 4 Repository](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox_course-project-4)
-* [&#x1F4DD; Quiz 4](./quiz-4_the-data-scientist’s-toolbox.md)
+* [&#x1F4DD; Quiz 4](./quiz-4_the-data-scientist-s-toolbox.md)
 
 #### Slides
 
@@ -48,6 +47,3 @@ library(lubridate)
 > During this final module, you'll learn to use R Markdown and get an introduction to three concepts that are incredibly important to every successful data scientist: asking good questions, experimental design, and big data.
 
 --------------------------------------------------------------------------------
-
-## Class Notes
-

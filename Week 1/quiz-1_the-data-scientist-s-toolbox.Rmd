@@ -1,5 +1,5 @@
 ---
-title: '`Quiz 4` The Data Scientist’s Toolbox'
+title: '`Quiz 1` The Data Scientist’s Toolbox'
 author: '`r if(knitr::is_html_output()) {"&#x1f468;&#x1F3FB;&#x200d;&#x1f4bb; Anderson H Uyekita"} else {NULL}`'
 output:
   github_document: default
@@ -18,8 +18,8 @@ params:
   specialization_url: 'https://www.coursera.org/specializations/data-science-foundations-r'
   instructor: 'Jeffrey Leek'
   course_start: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
-  course_finish: !r lubridate::today(tzone = "America/Sao_Paulo")
-  week: ' Week 4'
+  course_finish: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
+  week: ' Week 1'
 always_allow_html: true
 ---
 
@@ -36,22 +36,36 @@ library(lubridate)
 `r sprintf(fmt = "* &#x1F4C6; %s", params$week)`
     `r sprintf(fmt = "* &#x1F6A6; Start: %s", format(params$course_start, "%A, %d %B %Y"))`
     `r sprintf(fmt = "* &#x1F3C1; Finish: %s", format(params$course_finish, "%A, %d %B %Y"))`
-`r if(!knitr::is_html_output()) {"* &#x1F30E; Rpubs: [Interactive Document](https://rpubs.com/AndersonUyekita/quiz-4_the-data-scientist’s-toolbox)"}else{"* &#x1F4E6; Github Repository: [Static Document](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox/blob/main/Week%204/quiz-4_the-data-scientist’s-toolbox.md){target='_blank' rel='noopener'}"}`
+`r if(!knitr::is_html_output()) {"* &#x1F30E; Rpubs: [Interactive Document](https://rpubs.com/AndersonUyekita/quiz-1_the-data-scientist-s-toolbox)"}else{"* &#x1F4E6; Github Repository: [Static Document](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox/blob/main/Week%201/quiz-1_the-data-scientist-s-toolbox.md){target='_blank' rel='noopener'}"}`
 
 --------------------------------------------------------------------------------
 
 ## Question 1
 
+Which of these is NOT one of the main skills embodied by data scientists?
+
+- [x] Machine learning
 
 ## Question 2
 
+What is the most important thing in Data Science?
+
+- [x] The question you are trying to answer
 
 ## Question 3
 
+Which of these might be a good title for a forum post?
+
+- [x] Removing rows with NAs in data.frame using subset(), R 3.4.3
 
 ## Question 4
 
+What's the first step in the data science process?
+
+- [x] Generating the question
 
 ## Question 5
 
+Which of these is an example of a quantitative variable?
 
+- [x] Latitude

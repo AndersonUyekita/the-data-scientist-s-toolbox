@@ -12,15 +12,13 @@
     -   🧑‍🏫 Instructor: Jeffrey Leek
 -   📆 Week 4
     -   🚦 Start: Wednesday, 11 May 2022
-    -   🏁 Finish: Tuesday, 05 July 2022
+    -   🏁 Finish: Wednesday, 11 May 2022
 
 ------------------------------------------------------------------------
 
 #### Assignments & Deliverables
 
--   [🚀 Course Project 4
-    Repository](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox_course-project-4)
--   [📝 Quiz 4](./quiz-4_the-data-scientist’s-toolbox.md)
+-   [📝 Quiz 4](./quiz-4_the-data-scientist-s-toolbox.md)
 
 #### Slides
 
@@ -37,5 +35,3 @@
 > and big data.
 
 ------------------------------------------------------------------------
-
-## Class Notes

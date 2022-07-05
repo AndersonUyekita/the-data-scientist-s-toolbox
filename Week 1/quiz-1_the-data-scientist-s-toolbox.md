@@ -1,4 +1,4 @@
-`Quiz 4` The Data Scientist’s Toolbox
+`Quiz 1` The Data Scientist’s Toolbox
 ================
 
 -   👨🏻‍💻 Author: Anderson H Uyekita
@@ -10,20 +10,41 @@
     <a href="https://www.coursera.org/learn/data-scientists-tools"
     target="_blank" rel="noopener">The Data Scientist’s Toolbox</a>
     -   🧑‍🏫 Instructor: Jeffrey Leek
--   📆 Week 4
+-   📆 Week 1
     -   🚦 Start: Wednesday, 11 May 2022
-    -   🏁 Finish: Tuesday, 05 July 2022
+    -   🏁 Finish: Wednesday, 11 May 2022
 -   🌎 Rpubs: [Interactive
-    Document](https://rpubs.com/AndersonUyekita/quiz-4_the-data-scientist’s-toolbox)
+    Document](https://rpubs.com/AndersonUyekita/quiz-1_the-data-scientist-s-toolbox)
 
 ------------------------------------------------------------------------
 
 ## Question 1
 
+Which of these is NOT one of the main skills embodied by data
+scientists?
+
+-   [x] Machine learning
+
 ## Question 2
+
+What is the most important thing in Data Science?
+
+-   [x] The question you are trying to answer
 
 ## Question 3
 
+Which of these might be a good title for a forum post?
+
+-   [x] Removing rows with NAs in data.frame using subset(), R 3.4.3
+
 ## Question 4
 
+What’s the first step in the data science process?
+
+-   [x] Generating the question
+
 ## Question 5
+
+Which of these is an example of a quantitative variable?
+
+-   [x] Latitude

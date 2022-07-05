@@ -18,7 +18,7 @@ params:
   specialization_url: 'https://www.coursera.org/specializations/data-science-foundations-r'
   instructor: 'Jeffrey Leek'
   course_start: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
-  course_finish: !r lubridate::today(tzone = "America/Sao_Paulo")
+  course_finish: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
   week: ' Week 3'
 always_allow_html: true
 ---
@@ -36,22 +36,37 @@ library(lubridate)
 `r sprintf(fmt = "* &#x1F4C6; %s", params$week)`
     `r sprintf(fmt = "* &#x1F6A6; Start: %s", format(params$course_start, "%A, %d %B %Y"))`
     `r sprintf(fmt = "* &#x1F3C1; Finish: %s", format(params$course_finish, "%A, %d %B %Y"))`
-`r if(!knitr::is_html_output()) {"* &#x1F30E; Rpubs: [Interactive Document](https://rpubs.com/AndersonUyekita/quiz-3_the-data-scientist’s-toolbox)"}else{"* &#x1F4E6; Github Repository: [Static Document](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox/blob/main/Week%203/quiz-3_the-data-scientist’s-toolbox.md){target='_blank' rel='noopener'}"}`
+`r if(!knitr::is_html_output()) {"* &#x1F30E; Rpubs: [Interactive Document](https://rpubs.com/AndersonUyekita/quiz-3_the-data-scientist-s-toolbox)"}else{"* &#x1F4E6; Github Repository: [Static Document](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox/blob/main/Week%203/quiz-3_the-data-scientist-s-toolbox.md){target='_blank' rel='noopener'}"}`
 
 --------------------------------------------------------------------------------
 
 ## Question 1
 
+What is a good example of a message to accompany a commit?
+
+- [x] Modified linear model of height to include new covariate, genotype
 
 ## Question 2
 
+On each repository page in GitHub, in the top right hand corner there are three options. They are:
+
+- [x] Watch, star, fork
 
 ## Question 3
 
+Which of the following will initiate a git repository locally?
+
+-[x] git init
 
 ## Question 4
 
+What is the order of commands to send a file to GitHub from within RStudio?
+
+- [x] Stage > Commit message > Commit > Push
 
 ## Question 5
 
+How do you add all of the contents of a directory to version control?
+
+- [x] git add .
 

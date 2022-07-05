@@ -1,5 +1,5 @@
 ---
-title: '`Quiz 1` The Data Scientist’s Toolbox'
+title: '`Quiz 4` The Data Scientist’s Toolbox'
 author: '`r if(knitr::is_html_output()) {"&#x1f468;&#x1F3FB;&#x200d;&#x1f4bb; Anderson H Uyekita"} else {NULL}`'
 output:
   github_document: default
@@ -18,8 +18,8 @@ params:
   specialization_url: 'https://www.coursera.org/specializations/data-science-foundations-r'
   instructor: 'Jeffrey Leek'
   course_start: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
-  course_finish: !r lubridate::today(tzone = "America/Sao_Paulo")
-  week: ' Week 1'
+  course_finish: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
+  week: ' Week 4'
 always_allow_html: true
 ---
 
@@ -36,22 +36,36 @@ library(lubridate)
 `r sprintf(fmt = "* &#x1F4C6; %s", params$week)`
     `r sprintf(fmt = "* &#x1F6A6; Start: %s", format(params$course_start, "%A, %d %B %Y"))`
     `r sprintf(fmt = "* &#x1F3C1; Finish: %s", format(params$course_finish, "%A, %d %B %Y"))`
-`r if(!knitr::is_html_output()) {"* &#x1F30E; Rpubs: [Interactive Document](https://rpubs.com/AndersonUyekita/quiz-1_the-data-scientist’s-toolbox)"}else{"* &#x1F4E6; Github Repository: [Static Document](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox/blob/main/Week%201/quiz-1_the-data-scientist’s-toolbox.md){target='_blank' rel='noopener'}"}`
+`r if(!knitr::is_html_output()) {"* &#x1F30E; Rpubs: [Interactive Document](https://rpubs.com/AndersonUyekita/quiz-4_the-data-scientist-s-toolbox)"}else{"* &#x1F4E6; Github Repository: [Static Document](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox/blob/main/Week%204/quiz-4_the-data-scientist-s-toolbox.md){target='_blank' rel='noopener'}"}`
 
 --------------------------------------------------------------------------------
 
 ## Question 1
 
+What is the format for including a link that appears as blue text in your markdown document?
+
+- [x] `[text that is shown](link.com)`
 
 ## Question 2
 
+Which of the following describes a predictive analysis?
+
+- [x] Using data collected in the past to predict values in the future
 
 ## Question 3
 
+We collect data on all the songs in the Spotify catalogue and want to summarize how many are country western, hip-hop, classic rock, or other. What type of analysis is this?
+
+- [x] Descriptive
 
 ## Question 4
 
+What might a confounder be in an experiment looking at the relationship between the prevalence of white hair in a population and wrinkles?
+
+- [x] Age
 
 ## Question 5
 
+Which one of the following is an example of structured data?
 
+- [x] A table of names and student grades

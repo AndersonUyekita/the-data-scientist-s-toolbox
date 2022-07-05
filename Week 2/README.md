@@ -12,15 +12,13 @@
     -   🧑‍🏫 Instructor: Jeffrey Leek
 -   📆 Week 2
     -   🚦 Start: Wednesday, 11 May 2022
-    -   🏁 Finish: Tuesday, 05 July 2022
+    -   🏁 Finish: Wednesday, 11 May 2022
 
 ------------------------------------------------------------------------
 
 #### Assignments & Deliverables
 
--   [🚀 Course Project 2
-    Repository](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox_course-project-2)
--   [📝 Quiz 2](./quiz-2_the-data-scientist’s-toolbox.md)
+-   [📝 Quiz 2](./quiz-2_the-data-scientist-s-toolbox.md)
 
 #### Slides
 
@@ -37,5 +35,3 @@
 > data scientists use them.
 
 ------------------------------------------------------------------------
-
-## Class Notes

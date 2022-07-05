@@ -12,6 +12,8 @@ The Data Scientist’s Toolbox
     -   🧑‍🏫 Instructor: Jeffrey Leek
     -   🚦 Start: Wednesday, 11 May 2022
     -   🏁 Finish: Wednesday, 11 May 2022
+-   🎓
+    [Certificate](https://www.coursera.org/account/accomplishments/certificate/E4NFF2FZZEQP)
 
 ------------------------------------------------------------------------
 

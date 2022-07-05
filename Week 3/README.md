@@ -12,15 +12,13 @@
     -   🧑‍🏫 Instructor: Jeffrey Leek
 -   📆 Week 3
     -   🚦 Start: Wednesday, 11 May 2022
-    -   🏁 Finish: Tuesday, 05 July 2022
+    -   🏁 Finish: Wednesday, 11 May 2022
 
 ------------------------------------------------------------------------
 
 #### Assignments & Deliverables
 
--   [🚀 Course Project 3
-    Repository](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox_course-project-3)
--   [📝 Quiz 3](./quiz-3_the-data-scientist’s-toolbox.md)
+-   [📝 Quiz 3](./quiz-3_the-data-scientist-s-toolbox.md)
 
 #### Slides
 
@@ -36,5 +34,3 @@
 > GitHub to manage version control in data science projects.
 
 ------------------------------------------------------------------------
-
-## Class Notes
