@@ -1,0 +1,53 @@
+---
+title: '`Week 3` The Data Scientist’s Toolbox'
+author: '`r if(knitr::is_html_output()) {"&#x1f468;&#x1F3FB;&#x200d;&#x1f4bb; Anderson H Uyekita"} else {NULL}`'
+output:
+  github_document: default
+params:
+  author: 'Anderson H Uyekita'
+  course: 'The Data Scientist’s Toolbox'
+  course_url: 'https://www.coursera.org/learn/data-scientists-tools'
+  specialization: 'Data Science: Foundations using R Specialization'
+  specialization_url: 'https://www.coursera.org/specializations/data-science-foundations-r'
+  instructor: 'Jeffrey Leek'
+  course_start: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
+  course_finish: !r lubridate::today(tzone = "America/Sao_Paulo")
+  week: ' Week 3'
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, message = FALSE, warning = FALSE)
+library(rmarkdown)
+library(lubridate)
+```
+
+`r if(!knitr::is_html_output()) {sprintf(fmt = "* &#x1f468;&#x1F3FB;&#x200d;&#x1f4bb; Author: %s", params$author)}`
+`r sprintf(fmt = "* &#x1f4da; Specialization: [%s](%s){target='_blank' rel='noopener'}", params$specialization, params$specialization_url)`
+`r sprintf(fmt = "* &#x1f4d6; Course: [%s](%s){target='_blank' rel='noopener'}", params$course, params$course_url)`
+    `r sprintf(fmt = "* &#x1F9D1;&#x200d;&#x1F3EB; Instructor: %s", params$instructor)`
+`r sprintf(fmt = "* &#x1F4C6; %s", params$week)`
+    `r sprintf(fmt = "* &#x1F6A6; Start: %s", format(params$course_start, "%A, %d %B %Y"))`
+    `r sprintf(fmt = "* &#x1F3C1; Finish: %s", format(params$course_finish, "%A, %d %B %Y"))`
+
+--------------------------------------------------------------------------------
+
+#### Assignments & Deliverables
+
+* [&#x1F680; Course Project 3 Repository](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox_course-project-3)
+* [&#x1F4DD; Quiz 3](./quiz-3_the-data-scientist’s-toolbox.md)
+
+#### Slides
+
+* Version Control
+* Github and Git
+* Linking Github and R Studio
+* Projects under Version Control
+
+#### Description
+
+> During this module, you'll learn about version control and why it's so important to data scientists. You'll also learn how to use Git and GitHub to manage version control in data science projects.
+
+--------------------------------------------------------------------------------
+
+## Class Notes
+

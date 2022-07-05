@@ -1,0 +1,72 @@
+---
+title: 'The Data Scientist’s Toolbox'
+author: '`r if(knitr::is_html_output()) {"&#x1f468;&#x1F3FB;&#x200d;&#x1f4bb; Anderson H Uyekita"} else {NULL}`'
+output:
+  github_document: default
+params:
+  author: 'Anderson H Uyekita'
+  course: 'The Data Scientist’s Toolbox'
+  course_url: 'https://www.coursera.org/learn/data-scientists-tools'
+  specialization: 'Data Science: Foundations using R Specialization'
+  specialization_url: 'https://www.coursera.org/specializations/data-science-foundations-r'
+  instructor: 'Jeffrey Leek'
+  course_start: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
+  course_finish: !r lubridate::ymd('2022/05/11', tz = 'America/Sao_Paulo')
+  certificate_url: './'
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, message = FALSE, warning = FALSE)
+library(rmarkdown)
+library(lubridate)
+```
+
+`r if(!knitr::is_html_output()) {sprintf(fmt = "* &#x1f468;&#x1F3FB;&#x200d;&#x1f4bb; Author: %s", params$author)}`
+`r sprintf(fmt = "* &#x1f4da; Specialization: [%s](%s){target='_blank' rel='noopener'}", params$specialization, params$specialization_url)`
+`r sprintf(fmt = "* &#x1f4d6; Course: [%s](%s){target='_blank' rel='noopener'}", params$course, params$course_url)`
+    `r sprintf(fmt = "* &#x1F9D1;&#x200d;&#x1F3EB; Instructor: %s", params$instructor)`
+    `r sprintf(fmt = "* &#x1F6A6; Start: %s", format(params$course_start, "%A, %d %B %Y"))`
+    `r sprintf(fmt = "* &#x1F3C1; Finish: %s", format(params$course_finish, "%A, %d %B %Y"))`
+`r if(params$certificate_url != "./") {sprintf(fmt = "* &#x1F393; [Certificate](%s)", params$certificate_url)}`
+
+--------------------------------------------------------------------------------
+
+#### Assignments & Deliverables
+
+* [&#x1F680; Course Project 1 Repository](https://github.com/AndersonUyekita/the-data-scientist’s-toolbox_course-project-1)
+* [&#x1F4DD; Quiz 1](./Week 1/quiz-1_the-data-scientist’s-toolbox.md)
+* [&#x1F4DD; Quiz 2](./Week 2/quiz-2_the-data-scientist’s-toolbox.md)
+* [&#x1F4DD; Quiz 3](./Week 3/quiz-3_the-data-scientist’s-toolbox.md)
+* [&#x1F4DD; Quiz 4](./Week 4/quiz-4_the-data-scientist’s-toolbox.md)
+
+#### Class Notes
+
+* [&#x1F4C6; Week 1](./Week 1)
+* [&#x1F4C6; Week 2](./Week 2)
+* [&#x1F4C6; Week 3](./Week 3)
+* [&#x1F4C6; Week 4](./Week 4)
+* [&#x1F4D1; Course Textbook Notes](./book)
+
+#### Course Description
+
+In this course you will get an introduction to the main tools and ideas in the data scientist's toolbox. The course gives an overview of the data, questions, and tools that data analysts and data scientists work with. There are two components to this course. The first is a conceptual introduction to the ideas behind turning data into actionable knowledge. The second is a practical introduction to the tools that will be used in the program like version control, markdown, git, GitHub, R, and RStudio.
+
+
+#### Course Syllabus
+
+* Module 1 -- Data Science Fundamentals
+* Module 2 -- R and RStudio
+* Module 3 -- Version Control and Github
+* Module 4 -- R Markdown, Scientific Thinking, and Big Data
+
+#### Course Textbook
+
+I am not sure if the book [&#x1F4D4; The Elements of Data Analytic Style](./book/the-elements-of-data-analytic-style.pdf) is all related to the Course, but it is a nutshell of what data science is.
+
+#### Course Projects
+
+> The Course Project is pretty straightforward.
+>
+> Now that you’ve learned about the basic tools found in the data scientist’s toolbox, we want to make sure that you’ve assembled those tools and are ready to begin using them. This easy project is your chance to demonstrate that you’ve done the basic software setup (R, RStudio, and Github) that will get you through the rest of the Data Science Specialization.
+
+
